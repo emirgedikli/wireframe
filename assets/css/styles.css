@@ -1,0 +1,229 @@
+/* background */
+
+.bg-bordo-100 {
+  background-image: url(../img/bordo.jpg);
+}
+
+.bg-bordo-200 {
+  background-image: url(../img/bordo.jpg);
+}
+
+.bg-grey-200 {
+  background-color: rgb(233, 231, 231);
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+/* text-color */
+
+.text-white {
+  color: rgb(255 255 255);
+}
+
+.text-black {
+  color: rgb(0 0 0);
+}
+
+/* font-size */
+
+.text-xl {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+}
+
+/* flex */
+
+.flex {
+  display: flex;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+/* grid */
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+/* margin */
+
+.m-0 {
+  margin: 0rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.m-8 {
+  margin: 2rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem; /* 12px */
+}
+
+.mr-12 {
+  margin-right: 3rem; /* 48px */
+}
+
+/* padding */
+
+.pl-9 {
+  padding-left: 2.25rem; /* 36px */
+}
+
+.pr-11 {
+  padding-right: 2.75rem; /* 44px */
+}
+
+.pr-16 {
+  padding-right: 4rem; /* 64px */
+}
+
+.pr-3 {
+  padding-right: 0.75rem; /* 12px */
+}
+
+.pl-3 {
+  padding-left: 0.75rem; /* 12px */
+}
+
+.pl-7 {
+  padding-left: 1.75rem; /* 28px */
+}
+
+/* style */
+
+.list-none {
+  list-style-type: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.font-franklin {
+  font-family: "Franklin Gothic Medium";
+}
+
+.rounded-2xl {
+  border-radius: 1rem; /* 16px */
+}
+
+/* position and width */
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-lg {
+  max-width: 32rem; /* 512px */
+}
+
+.max-w-2xl {
+  max-width: 42rem; /* 672px */
+}
+
+.bottom-0 {
+  bottom: 0;
+}
